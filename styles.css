@@ -1,0 +1,40 @@
+body{
+	background-color: black;
+	margin: 0;
+	text-align: center;
+	color: gold;
+}
+#headline{
+	font-size: 3em;
+}
+
+#main{
+	margin: 0 auto;
+}
+
+.key{
+	border: 2px solid white;
+	border-radius: 10px;
+	color: gold;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	font-size: 3em;
+	margin: 10px;
+	transition: all 0.2s;
+}
+
+span{
+	text-transform: uppercase;
+	color: green;
+	display: block;
+	font-size: .3em;
+}
+
+.playing{
+	transform: scale(1.1);
+	border-color: gold;
+	box-shadow: 0 0 10px gold;
+}
+
